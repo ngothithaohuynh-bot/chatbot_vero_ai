@@ -1,0 +1,167 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="512"
+    android:viewportHeight="512">
+
+    <!-- Subtle elegant circular glowing aura behind the logo -->
+    <path
+        android:pathData="M256,256m-220,0a220,220 0,1 1,440 0a220,220 0,1 1,-440 0"
+        android:fillColor="#0E0D14" />
+
+    <path
+        android:pathData="M256,256m-180,0a180,180 0,1 1,360 0a180,180 0,1 1,-380 0"
+        android:fillColor="#1C1138" />
+
+    <!-- THE INTERLOCKING GEOMETRIC SHIELD/HEXAGON LOGO -->
+    <!-- Draw Outer Hexagon Border with rounded corners in rich Purple gradients -->
+    <path
+        android:pathData="M 256,50 L 416,140 L 416,330 L 256,420 L 96,330 L 96,140 Z"
+        android:strokeWidth="16"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="256"
+                android:startY="50"
+                android:endX="256"
+                android:endY="420"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#E9D5FF" />
+                <item android:offset="0.5" android:color="#A855F7" />
+                <item android:offset="1.0" android:color="#6D28D9" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Outer Intertwined Purple Ribbon (Top-Left Loop) resembling user logo -->
+    <path
+        android:pathData="M 256,80 C 210,80 150,130 130,170 C 110,210 110,280 150,310 C 190,340 240,340 256,310 C 272,280 272,210 256,210"
+        android:strokeWidth="14"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="130"
+                android:startY="80"
+                android:endX="256"
+                android:endY="310"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#C084FC" />
+                <item android:offset="1.0" android:color="#7C3AED" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Outer Intertwined Purple Ribbon (Top-Right Loop) resembling user logo -->
+    <path
+        android:pathData="M 256,80 C 302,80 362,130 382,170 C 402,210 402,280 362,310 C 322,340 272,340 256,310 C 240,280 240,210 256,210"
+        android:strokeWidth="14"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="382"
+                android:startY="80"
+                android:endX="256"
+                android:endY="310"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#A855F7" />
+                <item android:offset="1.0" android:color="#5B21B6" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Interlocking Center Loop (Shield contours) -->
+    <path
+        android:pathData="M 180,180 C 200,130 312,130 332,180 C 352,230 312,320 256,340 C 200,320 160,230 180,180 Z"
+        android:strokeWidth="14"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="180"
+                android:startY="130"
+                android:endX="332"
+                android:endY="340"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#8B5CF6" />
+                <item android:offset="1.0" android:color="#312E81" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Symmetrical interlocking inner curves -->
+    <path
+        android:pathData="M 170,250 C 190,300 322,300 342,250 C 362,200 302,150 256,150 C 210,150 150,200 170,250 Z"
+        android:strokeWidth="10"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="170"
+                android:startY="150"
+                android:endX="342"
+                android:endY="300"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#D8B4FE" />
+                <item android:offset="1.0" android:color="#4C1D95" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Scholastic Open Book icon at the top center of the hexagon structure -->
+    <!-- Left page of book -->
+    <path
+        android:pathData="M 256,110 C 240,92 205,92 180,105 L 180,135 C 205,122 240,122 256,135 Z"
+        android:fillColor="#F3E8FF"
+        android:strokeWidth="2"
+        android:strokeColor="#7C3AED" />
+
+    <!-- Right page of book -->
+    <path
+        android:pathData="M 256,110 C 272,92 307,92 332,105 L 332,135 C 307,122 272,122 256,135 Z"
+        android:fillColor="#F3E8FF"
+        android:strokeWidth="2"
+        android:strokeColor="#7C3AED" />
+
+    <!-- Book Center spine line -->
+    <path
+        android:pathData="M 256,105 L 256,137"
+        android:strokeWidth="3.5"
+        android:strokeColor="#7C3AED"
+        android:strokeLineCap="round" />
+
+    <!-- Solid translucent Shield shape at core to build modern visual depth -->
+    <path
+        android:pathData="M 210,210 L 256,170 L 302,210 L 302,280 L 256,328 L 210,280 Z"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#1E1236"
+        android:fillAlpha="0.75">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="210"
+                android:startY="170"
+                android:endX="302"
+                android:endY="328"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#D8B4FE" />
+                <item android:offset="1.0" android:color="#7C3AED" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Compass Guide Star in the center representing Socratic mentoring -->
+    <path
+        android:pathData="M 256,205 L 262,232 L 289,238 L 262,244 L 256,271 L 250,244 L 223,238 L 250,232 Z"
+        android:fillColor="#FFFFFF" />
+
+</vector>

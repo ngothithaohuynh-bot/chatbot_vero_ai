@@ -1,0 +1,8 @@
+{
+  "name": "Remix: VERO",
+  "description": "VERO is an AI learning assistant that promotes academic integrity, critical thinking, and student self-learning. Be real. Be you. Be honest.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
